@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="src/assets/images/Screen1" alt="Project Banner" width="100%" />
+  <img src="assets/images/Screen1.png" alt="Project Banner" width="100%" />
   <br />
   <!-- Tech Stack Badges -->
   <div>
