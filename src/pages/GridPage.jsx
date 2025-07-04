@@ -19,7 +19,7 @@ const theme = createTheme({
   }
 })
 
-function App() {
+function GridPage() {
   const [selectedLaunch, setSelectedLaunch] = useState(null)
   const [openModal, setOpenModal] = useState(false)
 
@@ -59,7 +59,7 @@ function App() {
             rangeLabel={rangeLabel}
             setRangeLabel={setRangeLabel}
             setDateRange={setDateRange}
-            dateRange={dateRange} // pass in if needed by your bar
+            dateRange={dateRange} 
           />
           <FilterPanel
             filter={filter}
@@ -86,4 +86,4 @@ function App() {
   )
 }
 
-export default App
+export default GridPage

@@ -106,16 +106,16 @@ npm run dev
 This project is licensed under the MIT License — see the LICENSE file for details.
 
 🙏 Acknowledgements
-SpaceX API
+SpaceX API React Vite MUI Tailwind CSS Framer Motion dayjs
 
-React
 
-Vite
 
-MUI
 
-Tailwind CSS
 
-Framer Motion
 
-dayjs
+
+
+
+
+
+
