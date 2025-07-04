@@ -152,7 +152,7 @@ const Landing = () => {
         )}
       </div>
 
-      {/* Footer */}
+    
       {/* Footer */}
       <footer
         className={`w-full text-center text-sm sm:text-base text-gray-400 py-6 ${
