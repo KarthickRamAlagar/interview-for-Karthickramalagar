@@ -19,7 +19,7 @@ const theme = createTheme({
   }
 })
 
-function App() {
+function GridPage() {
   const [selectedLaunch, setSelectedLaunch] = useState(null)
   const [openModal, setOpenModal] = useState(false)
 
@@ -86,4 +86,4 @@ function App() {
   )
 }
 
-export default App
+export default GridPage
