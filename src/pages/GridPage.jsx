@@ -59,7 +59,7 @@ function App() {
             rangeLabel={rangeLabel}
             setRangeLabel={setRangeLabel}
             setDateRange={setDateRange}
-            dateRange={dateRange} // pass in if needed by your bar
+            dateRange={dateRange} 
           />
           <FilterPanel
             filter={filter}
