@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Helvetica+Neue:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 font-inter;
+}
+.table-header {
+  @apply bg-gray-50 font-medium text-gray-600;
+}
+
+.modal-title {
+  @apply text-gray-800 font-medium;
+}
+
+::-webkit-scrollbar {
+  @apply w-2 h-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+@layer utilities {
+  @keyframes glitch {
+    0% {
+      clip-path: inset(0% 0 0 0);
+      text-shadow: 2px 0 rgb(168, 28, 203);
+    }
+    25% {
+      clip-path: inset(10% 0 60% 0);
+      text-shadow: 2px 0 hsl(299, 92.9%, 50.4%);
+    }
+    50% {
+      clip-path: inset(20% 0 50% 0);
+      text-shadow: 2px 0 rgb(237, 30, 82);
+    }
+    75% {
+      clip-path: inset(15% 0 55% 0);
+      text-shadow: 2px 0 rgb(15, 228, 196);
+    }
+    100% {
+      clip-path: inset(0% 0 0 0);
+      text-shadow: 2px 0 rgba(46, 251, 97, 0.8);
+    }
+  }
+
+  .glitch-after {
+    animation: glitch var(--after-duration, 1s) infinite linear
+      alternate-reverse;
+  }
+
+  .glitch-before {
+    animation: glitch var(--before-duration, 0.75s) infinite linear
+      alternate-reverse;
+  }
+}
