@@ -20,7 +20,7 @@
   <br />
 
   <div align="center">
-    🌐 <strong>Live Demo</strong>: <a href="https://karthickramalagar.github.io/spacex-dashboard/">SpaceX Dashboard</a>
+    🌐 <strong>Live Demo</strong>: <a href="[https://karthickramalagar.github.io/spacex-dashboard/](https://karthickramalagar.github.io/interview-for-Karthickramalagar/dashboard)">SpaceX Dashboard</a>
   </div>
 
   <br />
