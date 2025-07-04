@@ -18,11 +18,10 @@
   </div>
 
   <br />
+<div align="center">
+  🌐 <strong>Live Demo</strong>: <a href="https://karthickramalagar.github.io/interview-for-Karthickramalagar/">SpaceX Dashboard</a>
+</div>
 
-  <div align="center">
-    🌐 **Live Demo**: [SpaceX Dashboard](https://karthickramalagar.github.io/interview-for-Karthickramalagar/dashboard)
-
-  </div>
 
   <br />
 
